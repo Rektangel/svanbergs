@@ -1,0 +1,34 @@
+{
+  "name": "svanberg",
+  "version": "0.1.0",
+  "description": "Homepage for Svanberg Teknikhjalp",
+  "main": "index.js",
+  "author": "Erik Samuelsson",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "gatsby develop"
+  },
+  "dependencies": {
+    "gatsby": "^2.17.13",
+    "gatsby-plugin-react-helmet": "^3.1.14",
+    "gatsby-plugin-styled-components": "^3.1.12",
+    "prop-types": "^15.7.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-helmet": "^5.2.1",
+    "styled-components": "^4.4.1",
+    "styled-normalize": "^8.0.6"
+  },
+  "devDependencies": {
+    "eslint": "6.1.0",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "prettier": "^1.19.1"
+  }
+}
