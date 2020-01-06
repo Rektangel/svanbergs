@@ -13,7 +13,7 @@ const LayoutPropTypes = {
 const Main = styled.main`
   max-width: 1024px;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 2rem 1rem;
 `;
 
 const Layout = ({ children, pageTitle }) => (
