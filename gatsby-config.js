@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Svanberg',
+    title: 'Svanbergs tekniktjänst',
   },
   plugins: ['gatsby-plugin-react-helmet', 'gatsby-plugin-styled-components'],
 };

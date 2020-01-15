@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import SiteMetadata from './SiteMetadata';
 import Header from './Header';
 import Footer from './Footer';
+import { variables } from '../abstracts';
 
 const LayoutPropTypes = {
   pageTitle: PropTypes.string,
@@ -11,7 +12,7 @@ const LayoutPropTypes = {
 };
 
 const Main = styled.main`
-  max-width: 1024px;
+  max-width: ${variables.mainWidth};
   margin: 0 auto;
   padding: 2rem 1rem;
 `;
