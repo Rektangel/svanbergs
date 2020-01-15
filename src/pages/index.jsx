@@ -15,9 +15,6 @@ const InfoItem = styled.p`
   font-size: 1.2rem;
   text-align: center;
   font-weight: bold;
-  padding: 1rem;
-  box-shadow: 0 2px 8px ${colors.gray[600]};
-  border-radius: 5px;
 
   @media ${variables.desktopBreakpoint} {
     width: 40%;

@@ -10,6 +10,10 @@ const StyledQuote = styled.blockquote`
   background-color: ${colors.gray[900]};
   border-left: 5px solid ${colors.green};
 
+  p {
+    font-style: italic;
+  }
+
   span {
     margin-top: 2rem;
     font-weight: bold;
