@@ -9,14 +9,19 @@ const StyledFooter = styled.footer`
 const FooterContainer = styled.footer`
   max-width: ${variables.pageWidth};
   margin: 0 auto;
-  padding: 4rem 1rem;
+  padding: 2rem 1rem;
   font-size: 1rem;
   text-align: center;
 `;
 
 const Footer = () => (
   <StyledFooter>
-    <FooterContainer>Svanbergs Tekniktjänst</FooterContainer>
+    <FooterContainer>
+      Svanbergs Tekniktjänst
+      <br />
+      <br />
+      Kontaktuppgifter
+    </FooterContainer>
   </StyledFooter>
 );
 
