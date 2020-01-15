@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'gatsby';
-import { colors } from '../abstracts';
+import { colors, variables } from '../abstracts';
 
 const StyledNavigation = styled.nav`
   text-align: center;
@@ -13,14 +13,19 @@ const StyledLink = styled(Link)`
   border-bottom: none;
   box-shadow: none;
   color: inherit;
+  margin: 0 1rem;
 
   &:hover {
     text-decoration: none;
     color: ${colors.blue};
   }
 
-  &:not(:first-child) {
-    margin-left: 1rem;
+  @media ${variables.desktopBreakpoint} {
+    margin: 0;
+
+    &:not(:first-child) {
+      margin: 0 0 0 1rem;
+    }
   }
 `;
 
