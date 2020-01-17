@@ -30,15 +30,11 @@ const GlobalStyle = createGlobalStyle`
   }
   
   a {
-    text-decoration: none;
-    border-bottom: 1px solid ${colors.blue};
-    box-shadow: inset 0 -2px 0 ${colors.blue};
     color: inherit;
     
     transition: all 0.2s;
     
     &:hover {
-      text-decoration: none;
       color: ${colors.blue};
     }
   }

@@ -20,7 +20,7 @@ const Footer = () => (
       Svanbergs Tekniktjänst
       <br />
       <br />
-      Kontaktuppgifter
+      <a href="mailto:teknik@svanbergstjanst.se">teknik@svanbergstjanst.se</a> - <a href="tel://0707737567">0707 737 567</a>
     </FooterContainer>
   </StyledFooter>
 );
